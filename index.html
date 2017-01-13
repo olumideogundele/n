@@ -9,12 +9,10 @@
 	
 	function showUser() {
 	  global_ = "";
-	   //alert("mighty");
-	  	//cordova.plugins.notification.badge.set(50, showToast);
+	   
 	str = "not"
     if (str == "") {
-        //document.getElementById("txtHint").innerHTML = "";
-		 alert("mighty");
+        
         return;
     } else { 
         if (window.XMLHttpRequest) {
@@ -26,11 +24,15 @@
         }
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-                 //document.getElementById("txtHint").innerHTML = this.responseText;
+                
 			 global_ = this.responseText
-				alert(global_);
+			 if(global_ != 0 or global_ != "0" or global_ != "" )
+			 {
+				 
 			 
 				cordova.plugins.notification.badge.set(global_, showToast);
+				
+			 }
 				
             }
         };
