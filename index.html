@@ -7,14 +7,14 @@
     
     <script>
 	
-	function showUser() {
+	function showUser(str) {
 	  global_ = "";
-	    //alert("mighty");
+	   //alert("mighty");
 	  	//cordova.plugins.notification.badge.set(50, showToast);
 	str = "not"
     if (str == "") {
         //document.getElementById("txtHint").innerHTML = "";
-		//	 alert("mighty");
+		 alert("mighty");
         return;
     } else { 
         if (window.XMLHttpRequest) {
@@ -109,7 +109,7 @@
 	<div data-role="content" class="content">
 		<div>
 			<p align="center"><img src="images/logo.png" class="banner"></p>
-			<a href="http://online.shiftclocker.com/dcare" class="ui-btn ui-corner-all">Please wait .... Loading application</a>
+			<a  onClick="showUser()" class="ui-btn ui-corner-all">Please wait .... Loading application</a>
             <a href="http://online.shiftclocker.com/dcare" class="ui-btn ui-corner-all">Click to Login Here</a>
 		</div>  
        
