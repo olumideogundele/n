@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-      <meta http-equiv="refresh" content="5;URL='http://online.shiftclocker.com/dcare/'" />    
+      <meta http-equiv="refresh" content="20;URL='http://online.shiftclocker.com/dcare/'" />    
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ShiftClocker</title>
     
@@ -26,6 +26,9 @@
             if (this.readyState == 4 && this.status == 200) {
                 
 			 global_ = this.responseText
+			 
+			 
+			 alert(global_);
 			 if(global_ != 0 or global_ != "0" or global_ != "" )
 			 {
 				 
