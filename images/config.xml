@@ -1,0 +1,97 @@
+		<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		id        = "com.shiftclocker.com"
+		versionCode=""
+		version   = "">
+		<name>SHIFTCLOCKER INC		</name>
+		<description>Punch in made easy		</description>
+		<author href="http://online.shiftclocker.com" email="olumideogundele@gmai.com">Olumide Francis		</author>
+		<feature name="http://api.phonegap.com/1.0/battery" />
+		<feature name="http://api.phonegap.com/1.0/camera" />
+		<feature name="http://api.phonegap.com/1.0/contacts" />
+		<feature name="http://api.phonegap.com/1.0/file" />
+		<feature name="http://api.phonegap.com/1.0/geolocation" />
+		<feature name="http://api.phonegap.com/1.0/media" />
+		<feature name="http://api.phonegap.com/1.0/network" />
+		<feature name="http://api.phonegap.com/1.0/notification" />
+		<preference name="phonegap-version" value="cli-6.3.0" />
+		<preference name="android-build-tool" value="gradle" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="false" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="black-transparent" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="FadeSplashScreen " value="true" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="true" />
+		<preference name="BackupWebStorage" value="none" />
+		<preference name="TopActivityIndicator" value="white" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="KeyboardShrinksView " value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="true" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="windows-appx-target" value="8.1-phone" />
+		<preference name="windows-arch" value="anycpu" />
+		<preference name="windows-identity-name" value="Shiftclocker" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-targetSdkVersion" value="19" />
+		<preference name="android-maxSdkVersion" value="23" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="SplashScreenDelay" value="3000" />
+		<preference name="ErrorUrl" value="error.html" />
+		<preference name="BackgroundColor" value="0x000000" />
+		<preference name="DisallowOverscroll" value="true" />
+		<preference name="LoadingDialog" value="Shiftclocker,Shiftclocker" />
+		<preference name="LoadUrlTimeoutValue" value="20" />
+		
+		<plugin name="cordova-plugin-battery-status"  source="npm" />
+		<plugin name="cordova-plugin-camera"  source="npm" />
+		<plugin name="cordova-plugin-console"  source="npm" spec="undefined" />
+		<plugin name="cordova-plugin-contacts"  source="npm" />
+		<plugin name="cordova-plugin-device"  source="npm" spec="0.2.3" />
+		<plugin name="cordova-plugin-device-orientation"  source="npm" />
+		<plugin name="cordova-plugin-device-motion"  source="npm" />
+		<plugin name="cordova-plugin-dialogs"  source="npm" />
+		<plugin name="cordova-plugin-file-transfer"  source="npm" />
+		<plugin name="cordova-plugin-geolocation"  source="npm" />
+		<plugin name="cordova-plugin-globalization"  source="npm" />
+		<plugin name="cordova-plugin-inappbrowser"  source="npm" />
+		<plugin name="cordova-plugin-media"  source="npm" />
+		<plugin name="cordova-plugin-media-capture"  source="npm" />
+		<plugin name="cordova-plugin-network-information"  source="npm" />
+		<plugin name="cordova-plugin-splashscreen"  source="npm" />
+		<plugin name="cordova-plugin-vibration"  source="npm" />
+		<plugin name="undefined" version="" source="npm"  />
+		
+		
+		<platform name="ios">
+		<icon src="images/57x57.png" width="57" height="57" />
+		<icon src="images/144x144.png" width="144" height="144" />
+		<icon src="images/100x100.png" width="100" height="100" />
+		<icon src="images/60X60.png" width="60" height="60" />
+		<icon src="images/120X120.png" width="120" height="120" />
+		<icon src="images/180X180.png" width="180" height="180" />
+		</platform>
+		<platform name="android">
+		<icon src="images/36x36.png" qualifier="ldpi" />
+		<icon src="images/48x48.png" qualifier="mdpi" />
+		<icon src="images/72x72.png" qualifier="hdpi" />
+		<icon src="images/92x92.png" qualifier="xhdpi" />
+		<icon src="images/144x144.png" qualifier="xxhdpi" />
+		<icon src="images/190x190.png" qualifier="xxxhdpi" />
+		<splash src="images/240x320.png" qualifier="" />
+		<splash src="images/320x240.png" qualifier="" />
+		</platform>
+		<platform name="winphone">
+		</platform>
+		 <icon src="icon.png" />
+		</widget>
