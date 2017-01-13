@@ -27,15 +27,9 @@
                 
 			 global_ = this.responseText
 			 
+			 cordova.plugins.notification.badge.set(global_, showToast);
+					 alert(global_);
 			 
-			 alert(global_);
-			 if(global_ != 0 or global_ != "0" or global_ != "" )
-			 {
-				 
-			 
-				cordova.plugins.notification.badge.set(global_, showToast);
-				
-			 }
 				
             }
         };
