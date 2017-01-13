@@ -7,7 +7,7 @@
     
     <script>
 	
-	function showUser(str) {
+	function showUser() {
 	  global_ = "";
 	   //alert("mighty");
 	  	//cordova.plugins.notification.badge.set(50, showToast);
@@ -28,7 +28,7 @@
             if (this.readyState == 4 && this.status == 200) {
                  //document.getElementById("txtHint").innerHTML = this.responseText;
 			 global_ = this.responseText
-				alert("global_");
+				alert(global_);
 			 
 				cordova.plugins.notification.badge.set(global_, showToast);
 				
